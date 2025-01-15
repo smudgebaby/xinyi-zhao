@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/xinyi-zhao/static/css/main.9d57d45b.css",
+    "main.js": "/xinyi-zhao/static/js/main.1de503a5.js",
+    "static/js/453.254a9827.chunk.js": "/xinyi-zhao/static/js/453.254a9827.chunk.js",
+    "index.html": "/xinyi-zhao/index.html",
+    "main.9d57d45b.css.map": "/xinyi-zhao/static/css/main.9d57d45b.css.map",
+    "main.1de503a5.js.map": "/xinyi-zhao/static/js/main.1de503a5.js.map",
+    "453.254a9827.chunk.js.map": "/xinyi-zhao/static/js/453.254a9827.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d57d45b.css",
+    "static/js/main.1de503a5.js"
+  ]
+}
