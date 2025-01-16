@@ -35,8 +35,8 @@ const Shero = () => {
             </Link>
 
             <Link
-              href="/Zoey Zhao resume.pdf"
-              download="Zoey_Zhao_Resume.pdf"
+              href="https://drive.google.com/file/d/1SLdal69MlghUVH0Q4n6rx_UxTHJJy9cB/view?usp=sharing"
+              target="_blank"
               underline="none"
               color="inherit"
             >
