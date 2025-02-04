@@ -35,7 +35,7 @@ const Shero = () => {
             </Link>
 
             <Link
-              href="https://drive.google.com/file/d/1SLdal69MlghUVH0Q4n6rx_UxTHJJy9cB/view?usp=sharing"
+              href="https://drive.google.com/file/d/1igGVxwzGztC09pK7Z9dADGPZ_9V9xIwb/view?usp=sharing"
               target="_blank"
               underline="none"
               color="inherit"
