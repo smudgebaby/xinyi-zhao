@@ -6,7 +6,7 @@ import darkModeImg from '.././assets/modeIcon/dark.webp';
 
 
 const Header = ({ setLight, light, onScrollTo, refs }) => {
-  const { homeRef, aboutRef, experienceRef, contactRef } = refs;
+  const { homeRef, aboutRef, experienceRef, contactRef, galleryRef } = refs;
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   const toggleDrawer = (open) => () => {
@@ -62,6 +62,7 @@ const Header = ({ setLight, light, onScrollTo, refs }) => {
             <Button color="inherit" onClick={() => onScrollTo(aboutRef)}>About</Button>
             <Button color="inherit" onClick={() => onScrollTo(experienceRef)}>Experience</Button>
             <Button color="inherit" onClick={() => onScrollTo(contactRef)}>Contact</Button>
+            <Button color="inherit" onClick={() => onScrollTo(galleryRef)}>Gallery</Button>
           </Box>
         </Toolbar>
       </AppBar>

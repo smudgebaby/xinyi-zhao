@@ -24,7 +24,7 @@ const Contact = () => {
         
         <Box item xs={12} sm={4}>
           <Typography variant="body1" align="justify" fontFamily='monospace' sx={{ fontSize: { xs: '1rem', sm: '1.5rem' }, ml: '0.5rem', mb:'5rem' }}>
-            Please reach out to me at <Link href={`mailto:zxy1307@gmail.com`} color='text.secondary'>zxy1307@gmail.com</Link> for inquiries 
+            Please reach out to me at <Link href={`mailto:victoriazhao.dev@gmail.com`} color='text.secondary'>victoriazhao.dev@gmail.com</Link> for inquiries 
           </Typography>
 
           <Typography gutterBottom sx={{ fontSize: { xs: '1rem', sm: '1.3rem' }, fontFamily:'monospace', '&:hover':{color: 'text.secondary'}, }}>
@@ -34,8 +34,8 @@ const Contact = () => {
           </Typography>
 
           <Typography variant="body1" gutterBottom sx={{ fontSize: { xs: '1rem', sm: '1.3rem' }, fontFamily:'monospace', '&:hover':{color: 'text.secondary'}, }} >
-            <Link href={`mailto:zxy1307@gmail.com`} underline="none" color="inherit">
-              <MailOutlineIcon className='icon' /> zxy1307@gmail.com
+            <Link href={`mailto:victoriazhao.dev@gmail.com`} underline="none" color="inherit">
+              <MailOutlineIcon className='icon' /> victoriazhao.dev@gmail.com
             </Link>
           </Typography>
         </Box>

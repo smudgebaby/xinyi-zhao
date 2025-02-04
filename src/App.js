@@ -8,6 +8,8 @@ import Shero from './components/Shero';
 import About from './components/About';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import ImageCarousel from './components/ImageCarousel';
+import images from './assets/carouselImagesInput'
 
 const themeLight = createTheme({
   palette: {
@@ -41,6 +43,7 @@ function App() {
   const aboutRef = useRef(null);
   const experienceRef = useRef(null);
   const contactRef = useRef(null);
+  const galleryRef = useRef(null);
 
   const scrollToSection = (ref) => {
     if (ref?.current) {
@@ -63,12 +66,13 @@ function App() {
   return (
     <ThemeProvider theme={light ? themeLight : themeDark}>
       <CssBaseline />
-      <Header setLight={setLight} light={light} onScrollTo={scrollToSection} refs={{ homeRef, aboutRef, experienceRef, contactRef }} />
+      <Header setLight={setLight} light={light} onScrollTo={scrollToSection} refs={{ homeRef, aboutRef, experienceRef, contactRef, galleryRef }} />
       <div ref={homeRef}><Shero /></div>
       <div ref={aboutRef}><About /></div>
       <div ref={experienceRef}><Experience lightMode={light} /></div>
       <div ref={contactRef}><Contact /></div>
-      
+      <div ref={galleryRef}><ImageCarousel images={images} interval={4000} /></div>
+
       {showBackToTop && (
         <Fab
           size="small"
